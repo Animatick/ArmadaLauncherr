@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmadaLauncher", "ArmadaLauncher\ArmadaLauncher.csproj", "{44137B34-5A12-4111-AFAE-04E88E4312BD}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "ArrmadaLauncherInstaller", "ArrmadaLauncherInstaller\ArrmadaLauncherInstaller.aiproj", "{8314206E-8F1D-4834-9CE9-EBE4BE63D317}"
+	ProjectSection(ProjectDependencies) = postProject
+		{44137B34-5A12-4111-AFAE-04E88E4312BD} = {44137B34-5A12-4111-AFAE-04E88E4312BD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
+		All|x64 = All|x64
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.All|Any CPU.Build.0 = Release|Any CPU
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.All|x64.ActiveCfg = Release|x64
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.All|x64.Build.0 = Release|x64
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Debug|x64.ActiveCfg = Debug|x64
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Debug|x64.Build.0 = Debug|x64
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Release|x64.ActiveCfg = Release|x64
+		{44137B34-5A12-4111-AFAE-04E88E4312BD}.Release|x64.Build.0 = Release|x64
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.All|Any CPU.ActiveCfg = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.All|Any CPU.Build.0 = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.All|x64.ActiveCfg = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.All|x64.Build.0 = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Debug|Any CPU.ActiveCfg = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Debug|Any CPU.Build.0 = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Debug|x64.ActiveCfg = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Debug|x64.Build.0 = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Release|Any CPU.ActiveCfg = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Release|Any CPU.Build.0 = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Release|x64.ActiveCfg = X64DefaultBuild
+		{8314206E-8F1D-4834-9CE9-EBE4BE63D317}.Release|x64.Build.0 = X64DefaultBuild
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C5A7BB1-7AC3-47C1-BB1A-386ACF572232}
+	EndGlobalSection
+EndGlobal
